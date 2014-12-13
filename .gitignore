@@ -3,3 +3,4 @@ _site
 .idea/*
 *.pyc
 .DS_Store
+s3_website.yml

@@ -132,7 +132,7 @@ Oddly, Lisa seems oblivious to this, and still likes Krusty. Although Homer and 
 
 And Bart really doesn't like Skinner:
 
-![bart feelings](http://www.vikparuchuri.com/images/simpsons-sentiment/bart_feelings.png)
+![bart feelings](http://www.vikparuchuri.com/images/bart_feelings.png)
 
 Conclusion
 --------------------------------------------
