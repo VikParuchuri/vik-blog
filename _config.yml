@@ -2,7 +2,7 @@ name: Vik's Blog
 description: Writings on machine learning, data science, and other cool stuff
 meta_description: "Vik's Blog -- exciting projects in machine learning"
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 logo: false
 paginate: 15

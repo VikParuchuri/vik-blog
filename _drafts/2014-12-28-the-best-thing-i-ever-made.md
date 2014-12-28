@@ -10,9 +10,13 @@ categories: Java coding
 
 In January of 2011, I joined the US Foreign Service.  Along with 80 others, I went through a class called A-100, and got a crash course on how to be a diplomat.  We learned how to address foreign dignitaries.  We got lessons in diplomatic history.  There was even an optional class on how to comport yourself at diplomatic dinners (I skipped this one).  At the end of training, we were ready to change the face of US foreign relations.
 
-In June, I was sent to Georgetown, Guyana, for a two year assignment (a "tour" at a "post" in Foreign Service lingo).  During the first year of my tour, I was to do consular work, and then switch to economic work for the second.  Consular work includes three major areas: nonimmigrant visas, immigrant visas, and american citizen services.  The main commonality between all of them is paperwork.  Lots of it.
+In June, I was sent to Georgetown, Guyana, for a two year assignment (a "tour" at a "post" in Foreign Service lingo).  During the first year of my tour, I was to do consular work, and then switch to economic work for the second.  Consular work covers three major areas: nonimmigrant visas (people who want to visit the US), immigrant visas (people who want to become permanent residents of the US), and american citizen services (visiting american citizens in jail, etc).  The main commonality between all of them is paperwork.  Lots of it.
 
-### The passport process
+{:.center}
+![Georgetown,Guyana](/images/best-thing/georgetown.jpg)  
+The famous Stabroek market in Georgetown
+
+### Pre-processing immigrant visas
   
   All new consular officers at my post were assigned to do pre-processing of immigrant visas.  These visas were for people who wanted to migrate to the US and get permanent resident status, so we needed to do a lot of checks to ensure that their applications were legitimate.  The task that fell to me was to go through the passport of each person who was applying for an immigrant visa.  I then had to get the passport number and their name.  I then had to do a few things:
   
@@ -28,9 +32,17 @@ In June, I was sent to Georgetown, Guyana, for a two year assignment (a "tour" a
     
 I quickly came to loathe this process.  Because we were using very old computers, we only had Internet Explorer 6, and each page could take 10-20 seconds to load.  Going through the whole process took two hours (I usually had 20-30 of these to do per day), and it was two hours of unending monotony and boredom.  Open a passport, read a name, type in a name, click once to search, click 1-10 times on each record that comes up, and print each one out.  Repeat several times for each database.  I still sometimes look back on the whole process and get unreasonably angry -- it was a convoluted mess that absolutely should have been automated, and I feel incredibly sorry for anyone who has had to do it.
 
+{:.center}
+![IE6](/images/best-thing/ie6.gif)  
+Remember IE6?  I wish I didn't
+
 ### Using Excel
 
 I went through the whole process for about a week before I realized that I needed to fix it to retain my sanity.  I starting optimizing parts of the process.  The first thing I did was go through all of the passports at the same time, and type everything into Excel.  I could then do all of the checks without going back and forth between the computer and the passports.  I deleted the file at the end of the process, for security (none of the information was classified or secure, but we had guidelines for handling sensitive information).  Net savings from this step was about 10 minutes.  I felt kind of good about taking a first step, but I wasn't satisfied -- the work was still pretty horrible.
+
+{:.center}
+![Excel](/images/best-thing/excel.gif)  
+If you never used Excel, its a spreadsheet tool
 
 ### Automating a single search
 
@@ -59,6 +71,10 @@ I realized that the bottleneck was me -- if I didn't have to go back and forth a
 
 The "Run" button morphed, so that now when you clicked it, it popped up a file chooser.  You picked a worksheet (in .xls format, I didn't know how much easier csv is!), and then it was loaded in.  The first column of the worksheet was the person's name, and the second column was the passport number.  
 
+{:.center}
+![Chooser](/images/best-thing/java-chooser.gif)  
+A Java file chooser
+
 The program went through each row of the worksheet and:
     
 * Clicked on the "first name" box, and typed in the person's first name.
@@ -76,6 +92,10 @@ Net savings here were about 40 minutes.  I had automated the process down from 2
 ### A hacky way to use alt-tab
 
 If you use Windows a lot, you know about the alt+tab key combination -- it lets you switch between programs.  You hold them both together, then release the tab key while holding the alt key.  This will show a mini window with the active programs in a set order.  Then, every time you press tab, it highlights the next program in the window.  Whenever you release alt, it will switch to the highlighted program.  Using alt-tab helped me switch to DB2 and print out the DB1 and DB2 records together, so I didn't need to collate them manually.
+
+{:.center}
+![Alt-tab](/images/best-thing/alt-tab.png)  
+The alt-tab mini-window
   
 The process looked something like this:
     

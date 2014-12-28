@@ -37,7 +37,7 @@ Okay, lets get the text out of the page and split it into smaller units of text.
 
 One stumbling block is that we want to make a chrome extension, but text-parse is a package for node.  Thankfully, the awesome [browserify](http://browserify.org/) package lets us convert npm packages to javascript files that we can include in html (just like normal js files).  We can use text-parse by doing this:
 
-```shell
+```
 npm install text-parse
 browserify -r text-parse > bundle.js
 ```
