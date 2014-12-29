@@ -4,7 +4,7 @@ title: About me
 ---
 
 <img src="https://vik-affirm-assets.s3-us-west-1.amazonaws.com/about-me/vik_profile_small.png" align="left" class="img-thumbnail" style="margin-right: 20px;">
-I'm currently a data scientist/general software person working in Somerville, MA.  If you're around Boston and want to get a beer, let me know!  I love meeting cool people and hacking on interesting projects.  You can find me on [LinkedIn](http://linkedin.com/in/vikparuchuri), or email me at vik dot paruchuri at gmail dot com.
+I'm a data scientist and developer living in Somerville, MA.  I'm working on [DataQuest](https://www.dataquest.io). If you're around Boston and want to get a beer, let me know!  You can find me on [LinkedIn](http://linkedin.com/in/vikparuchuri), or email me at vik dot paruchuri at gmail dot com.
 
 <a href="https://twitter.com/VikParuchuri" class="twitter-follow-button" data-show-count="false" data-lang="en" data-size="large">Follow @VikParuchuri</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -23,4 +23,4 @@ In the past year or so, I've worked on:
 * A server that makes automated essay scoring easy to setup and use called [Scan](https://github.com/VikParuchuri/scan)
 * A tool to make analyzing your own quantified self data flexible and easy called [Realize](https://github.com/realizeapp/realize-core)
 
-In the past, I have worked as a US diplomat (Foreign Service Officer), a consultant, and an operations manager.
+In the past, I've been a US diplomat (Foreign Service Officer), a consultant, and an operations manager.
