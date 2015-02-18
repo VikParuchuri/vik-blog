@@ -32,7 +32,7 @@ I then imported the existing prototype app and took a look at it.
 ![Prototype](/images/tulalens/prototype.png)  
 Login screen from the prototype
 
-I spent some time playing around with the prototype.  It was very well done for having been done in an overnight hackathon that was ~16 hours (7:30pm - 12pm the next day).  I'm not sure why this particular format was picked, but it may have had something to do with most of the participants being college students, and having scheduling conflicts.
+I spent some time playing around with the prototype.  It was very well done for having been done in an [overnight hackathon](http://idhack.developersfordevelopment.org/) that was ~16 hours (7:30pm - 12pm the next day).  I'm not sure why this particular format was picked, but it may have had something to do with most of the participants being college students, and having scheduling conflicts.
 
 The good with the prototype:
 
@@ -44,10 +44,10 @@ The good with the prototype:
 The problems with the prototype:
 
 * It crashed after some questions were answered.
-* It didn't have a way to update/edit questions.
+* It didn't have a way to update/edit surveys.
 * Survey answering wasn't fully implemented.
 
-Ultimately, rather than spend time trying to re-architect the app, I took some design decisions from it and started fresh with a new app.  This was because the time to re-architect the app was unknown, but I knew I could make an app from scratch in a day.  I can't emphasize enough how awesome it was that Leo and Jeffrey took the time to work on this.
+Ultimately, rather than spend time trying to re-architect the prototype, I took some design decisions from it and started fresh with a new app.  This was because the time to re-architect the prototype was unknown, but I knew I could make an app from scratch in a day.  I can't emphasize enough how awesome it was that Leo and Jeffrey took the time to work on this, and the design decisions (use parse, have individual accounts, etc), helped a lot with making the app.
 
 ## The fun part! (10am - 10:30am)
 
@@ -116,11 +116,11 @@ The login screen.  Yes, it's super light, and should be fixed.
 
 ## Adding a listview and sync (11am - 1pm)
 
-I now needed a way to list out surveys on the device, and to sync them.  I decided to use a `ListView` to do this, with the `ParseQueryAdapter`.  This is a parse builtin class that will do a query to the parse database, and present the results in a list.  I used the parse concept of [pinning](http://blog.parse.com/2014/04/30/take-your-app-offline-with-parse-local-datastore/) to only show surveys in the local database to the listview (the listview doesn't access the internet).
+I now needed a way to list out surveys on the device, and to sync them.  I decided to use a `ListView` to do this, with the `ParseQueryAdapter`.  This is a parse builtin class that will do a query to the parse database, and present the results in a list.  I used the parse concept of [pinning](http://blog.parse.com/2014/04/30/take-your-app-offline-with-parse-local-datastore/) to only show surveys in the local database to the listview (the listview doesn't access the internet).  Pinning is used to add results to the device storage, so you don't need internet access to use them.
 
-Basically, the data flow is Parse Cloud -> Local Datastore -> Listview.
+Basically, the data flow is Parse Cloud -> Storage on device -> Listview.
 
-I needed to build a sync service to get data from the cloud to the local datastore.  I used a query, along with pinning, to store all the current surveys (latest versions) to the local datastore.  The list view could then pick these up and show them.
+I needed to build a sync service to get data from the cloud to the device.  Once the data was on the device, the sync could be used to update it as needed.  I used a query, along with pinning, to store all the current surveys (latest versions) to the local datastore.  The list view could then pick these up and show them.
 
 {:.center}
 ![Survey List](/images/tulalens/surveys.png)  
@@ -136,9 +136,7 @@ The settings view with the logout button.
 
 ## The hard part!  The survey engine (1:30pm - 3pm)
 
-I now had to work on the hardest part, rendering the surveys dynamically from the database schema.  I made a new fragment called `EngineFragment` to be the survey rendering engine.  When you click on a survey in the surveys list, this fragment is initialized.  It loads the database schema, figures out what type of question needs to be shown, and loads and shows a layout accordingly.
-
-Different types of questions have different fields that are shown.
+I now had to work on the hardest part, rendering the surveys dynamically from the database schema.  I made a new fragment called `EngineFragment` to be the survey rendering engine.  A fragment is just a partial view in android, so it's just a screen.  When you click on a survey in the surveys list, this fragment is initialized.  It loads the screens for the survey from device storage, figures out what type of question needs to be shown first, and loads and shows the right fields for that question type.  Different types of questions have different fields that are shown.
 
 {:.center}
 ![Survey MC](/images/tulalens/survey_mc.png)  
@@ -148,13 +146,13 @@ A survey with the choice_single type.  You can pick one option.  The next button
 ![Survey Text](/images/tulalens/survey_text.png)  
 A survey with the text type.  You can enter any text you want.
 
-The hardest part here was dynamically rendering any amount of fields for the `choice_single` and `choice_multiple` types.  I solved this by creating the views dynamically and adding them to the layout.
+The hardest part here was dynamically rendering any amount of radio buttons and checkboxes for the `choice_single` and `choice_multiple` types.  I solved this by creating the buttons dynamically and adding them to the screen.
 
 ## Storing the responses (3pm - 4pm)
 
-Once someone hits "Next", the response to the question should be stored.  In order to do this, I pulled out the right value depending on what the question type was, and created a new `ScreenAttempt` model.  This model was associated with a screen (which is associated with a survey object that has a version), so you can keep track of who answered what.  A participant id is also generated every time a new survey is started, so you can see which responses were given by which woman.
+Once someone hits "Next", the response to the question should be stored to the cloud, so it can be accessed and analyzed later.  In order to do this, I pulled out the values from the displayed fields, depending on what the question type was, and created a new `ScreenAttempt` object.  This object was associated with a screen (which is associated with a survey object that has a version), so you can keep track of who answered what.  A participant id is also generated every time a new survey is started, so you can see which responses were given by which woman.  This object was stored to a database row.
 
-I used the parse `saveEventually` function to store these responses whenever a network connection was found.
+I used the parse `saveEventually` function, which synced the objects to the cloud once a network connection was available.
 
 ## Setting up everything on windows (4pm - 5:30pm)
 
@@ -164,7 +162,7 @@ While I worked on helping her, Priya was setting up her tablets and installing a
 
 ## Pushing the app to Google Play (5:30pm - 5:45pm)
 
-Because we couldn't get Android Studio setup on her computer, we needed a way to distribute app updates to the tablets.  I pushed the app to Google Play alpha testing (needed to add some screenshot, and generate a keystore) so it could be downloaded remotely.
+Because we couldn't get Android Studio setup on her computer, we needed a way to distribute app updates to the tablets.  I pushed the app to Google Play alpha testing (needed to add some screenshots, and write a description) so it could be downloaded remotely to the tablets.
 
 ## User Testing and Bug Fixes (ongoing)
 
@@ -180,4 +178,6 @@ Here we are super spaced out after climbing Mt. Cadillac in Maine.  I don't have
 
 ## Conclusions
 
-I'm really excited to see this app used, and it's really rewarding to have had the chance to help out with this.  If you want to contribute drop Priya a line -- she's priya at tulalens.org, and TulaLens is on twitter [@tulalens](https://twitter.com/tulalens).  The app is on Github [here](https://github.com/VikParuchuri/TulaLensSurvey), and the survey authoring part is [here](https://github.com/VikParuchuri/tulalens-survey-web) if you want to take a look.
+I'm really excited to see this app used, and it's really rewarding to have had the chance to help out with this.  I hope it can help a lot of women in India, and around the world, and I'd love to see how it could be extended and built on.  Right now, the major needs are fixing bugs in the app, and adding in analysis scripts that can pull the data from Parse and display summaries and charts.
+
+If you want to contribute, drop Priya a line -- she's priya at tulalens.org, and TulaLens is on twitter [@tulalens](https://twitter.com/tulalens).  The app is on Github [here](https://github.com/VikParuchuri/TulaLensSurvey), and the survey authoring part is [here](https://github.com/VikParuchuri/tulalens-survey-web) if you want to take a look.
