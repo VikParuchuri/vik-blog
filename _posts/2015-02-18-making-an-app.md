@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Making an app as a (belated) Valentine's day gift
-date: 2015-02-18 18:20
+title: Making an app as a Valentine's day gift
+date: 2015-02-18 16:45
 status: published
 categories: android app tulalens
 ---
@@ -18,7 +18,7 @@ She wants to scale up her process, and is going back to India in a week to do a 
 
 Priya's worked hard to find people who can help her make an app, and two awesome people even helped make a [prototype](http://challengepost.com/software/tulolens) at a hackathon last weekend.  It's really hard as a non-technical person to network and find people who can help, but Priya's also found people who can help with making analysis scripts, and do other work.  The challenge is pulling all the threads together and building a production-ready survey system that can be used in a week.
 
-I love the work that Tulalens is doing, and I owe Priya for putting up with me all these years, so I decided to help her make the app as a Valentine's day gift.  I'm terrible at getting gifts (I remember getting a dress a couple of sizes too big once, but as a plus, I did get some awesome earrings), and Priya doesn't ever ask for anything, so this seemed like a good fit.  The only challenge?  I'm working on [Dataquest](https://www.dataquest.io), so I only had about a day to work on the app (this day was Monday (2/16), if anyone is keeping score).
+I love the work that Tulalens is doing, and I owe Priya for putting up with me all these years, so I decided to help her make the app as a Valentine's day gift.  We're not big on Valentine's day, but it seems like as good an occasion as any for gifts.  I'm terrible at getting gifts (I remember getting a dress a couple of sizes too big once, but as a plus, I did get some awesome earrings), and Priya doesn't ever ask for anything, so this seemed like a good fit.  The only challenge?  I'm working on [Dataquest](https://www.dataquest.io), so I only had about a day to work on the app (this day was Monday (2/16), so a tiny bit late for Valentine's day, but hopefully you'll cut me some slack).
 
 ## Getting started (8am - 9am)
 
