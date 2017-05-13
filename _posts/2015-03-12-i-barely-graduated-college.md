@@ -1,9 +1,12 @@
 ---
 layout: post
+cover: false
 title: I barely graduated college, and that's okay
 date: 2015-03-12 05:00
 status: published
 categories: college life
+tags: life
+subclass: post
 ---
 
 I didn't do very well in high school.  My grade point average was around a 2.5 out of 4.  I did well in some subjects that I was interested in, like math, computer science, and history, but everything else was a wash.  The less homework a class required me to do, the better my grade in that class usually ended up being.  In most classes I ended up counting down the minutes to them ending.  I wasn't particularly passionate about school, and I wasn't one of those super driven high school students who always seem to be able to fit in homework, a social life, sports, and 10 clubs.

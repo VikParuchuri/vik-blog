@@ -1,5 +1,6 @@
 ---
 layout: post
+cover: false
 title: Create a New Ruby Process in Windows
 date: 2012-01-10 18:20
 slug: create-new-ruby-process-in-windows

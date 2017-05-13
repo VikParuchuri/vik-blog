@@ -2,8 +2,16 @@ name: Vik's Blog
 description: Writings on machine learning, data science, and other cool stuff
 meta_description: "Vik's Blog -- exciting projects in machine learning"
 
+author: 'Vik Paruchuri'
+nickname: vik
+bio: 'Founder of <a href="https://www.dataquest.io">Dataquest</a>, the best place to learn data science online.  Passionate about edtech.  Reach out <a href="https://www.twitter.com/VikParuchuri">@VikParuchuri</a>.'
+location: 'San Francisco, CA'
+url: 'https://www.twitter.com/VikParuchuri'
+image: 'assets/images/profile.png'
+
+google_analytics: 'UA-41411988-1'
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
@@ -12,7 +20,11 @@ exclude:
   - python
 permalink: /blog/:title/
 rss_name: atom.xml
+language: 'en-us'
 
 # Details for the RSS feed generator
-url:            'www.vikparuchuri.com'
-author:         'Vik Paruchuri'
+short_url: 'vikparuchuri.com'
+url: 'www.vikparuchuri.com'
+author: 'Vik Paruchuri'
+
+gems: [jekyll-paginate]
