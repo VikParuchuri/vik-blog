@@ -1,17 +1,14 @@
 ---
-layout: post
-title: Predicting season records for NFL teams - part 2
+categories: vik
+cover: false
 date: 2013-07-09 14:20
-slug: predicting-season-records-for-nfl-teams-part-2
+layout: post
 modified: 2014-01-07 21:48
+slug: predicting-season-records-for-nfl-teams-part-2
 status: published
-categories:
-    - machine learning
-    - ML
-    - percept
-    - equirio
-    - NFL
-    - football
+subclass: post
+tags: ML machine-learning NFL
+title: Predicting season records for NFL teams - part 2
 ---
 
 *This is the second, technical, part of this series. See [the first part](/blog/predicting-nfl-season-records-with-percept) for the overview.*

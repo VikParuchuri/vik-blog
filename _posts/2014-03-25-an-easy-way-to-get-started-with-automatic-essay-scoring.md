@@ -1,11 +1,14 @@
 ---
-layout: post
-title: An easy way to get started with automated essay scoring
+categories: vik
+cover: false
 date: 2014-03-25 08:28
-slug: an-easy-way-to-get-started-with-automatic-essay-scoring
+layout: post
 modified: 2014-03-25 08:28
+slug: an-easy-way-to-get-started-with-automatic-essay-scoring
 status: published
-categories: AES Essay scoring python
+subclass: post
+tags: AES Essay scoring python
+title: An easy way to get started with automated essay scoring
 ---
 
 Wow, it's been way too long since I have updated this blog!  I am going to start making more frequent updates, and I have some cool things in the pipeline, so bear with me.

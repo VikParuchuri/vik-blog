@@ -1,16 +1,14 @@
 ---
-layout: post
-title: Natural Language Processing Tutorial
+categories: vik
+cover: false
 date: 2013-06-26 00:02
-slug: natural-language-processing-tutorial
+layout: post
 modified: 2014-01-07 21:27
+slug: natural-language-processing-tutorial
 status: published
-categories:
-    - nlp
-    - natural language processing
-    - python
-    - R
-    - text
+subclass: post
+tags: nlp R python
+title: Natural Language Processing Tutorial
 ---
 
 ## Introduction

@@ -1,11 +1,13 @@
 ---
-layout: post
-title: Introduction to Kaggle Algorithmic Trading Challenge
+categories: vik
+cover: false
 date: 2012-01-10 18:35
-slug: introduction-to-kaggle-algorithmic
+layout: post
 modified: 2014-01-07 18:47
+slug: introduction-to-kaggle-algorithmic
 status: published
-categories: Finance Kaggle Algorithms R
+subclass: post
+tags: Finance Kaggle Algorithms R
 ---
 
 I recently participated in the Kaggle Algorithmic Trading Competition under

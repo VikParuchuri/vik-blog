@@ -1,26 +1,14 @@
 ---
-layout: post
-title: Finding Word Use Patterns in Wikileaks Cables
+categories: vik
+cover: false
 date: 2012-06-12 11:10
-slug: finding-word-use-patterns-in-wikileaks
+layout: post
 modified: 2014-01-07 21:53
+slug: finding-word-use-patterns-in-wikileaks
 status: published
-categories:
-    - text mining
-    - cables
-    - word cloud
-    - ggplot
-    - wordcloud
-    - unclassified
-    - government
-    - foreign service
-    - wikileaks
-    - classified
-    - R
-    - diplomatic
-    - nlp
-    - natural language processing
-    - diplomatic cables
+subclass: post
+tags: text-mining R nlp
+title: Finding Word Use Patterns in Wikileaks Cables
 ---
 
 6/18: A follow-up to this post is now available

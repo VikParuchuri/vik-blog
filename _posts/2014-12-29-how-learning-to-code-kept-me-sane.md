@@ -1,11 +1,14 @@
 ---
-layout: post
-title: How learning to code kept me sane when I was a diplomat
+categories: vik
+cover: false
 date: 2014-12-29 12:50
-slug: how-learning-to-code-kept-me-sane
+layout: post
 modified: 2014-12-29 12:50
+slug: how-learning-to-code-kept-me-sane
 status: published
-categories: Java coding
+subclass: post
+tags: Java coding
+title: How learning to code kept me sane when I was a diplomat
 ---
 
 In January of 2011, I joined the [US Foreign Service](http://en.wikipedia.org/wiki/United_States_Foreign_Service).  Along with 80 others, I went through a class called [A-100](http://en.wikipedia.org/wiki/A-100_Class), and got a crash course on how to be a diplomat.  We learned how to address foreign dignitaries.  We got lessons in diplomatic history.  There was even an optional class on how to comport yourself at diplomatic dinners (I skipped this one).  At the end of training, we were ready to change the face of US foreign relations.

@@ -1,11 +1,14 @@
 ---
-layout: post
-title: Parallel R Loops in Windows and Linux
+categories: vik
+cover: false
 date: 2012-01-17 14:41
-slug: parallel-r-loops-for-windows-and-linux
+layout: post
 modified: 2014-01-07 18:47
+slug: parallel-r-loops-for-windows-and-linux
 status: published
-categories: Linux Windows parallel R
+subclass: post
+tags: Linux Windows parallel R
+title: Parallel R Loops in Windows and Linux
 ---
 
 Parallel computation may seem difficult to implement and a pain to use, but it

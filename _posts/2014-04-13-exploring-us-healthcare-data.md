@@ -1,11 +1,14 @@
 ---
-layout: post
-title: Exploring US Healthcare data
+categories: vik
+cover: false
 date: 2014-04-13 08:28
-slug: exploring-us-healthcare-data
+layout: post
 modified: 2014-04-13 08:28
+slug: exploring-us-healthcare-data
 status: published
-categories: R Python data visualization healthcare US
+subclass: post
+tags: R Python data visualization healthcare US
+title: Exploring US Healthcare data
 ---
 
 <link rel="stylesheet" type="text/css" href="https://vik-affirm-assets.s3-us-west-1.amazonaws.com/exploring-us-healthcare-data/nv.d3.css">

@@ -1,18 +1,14 @@
 ---
-layout: post
-title: Do the Simpsons characters like each other?
+categories: vik
+cover: false
 date: 2013-07-21 14:33
-slug: how-do-simpsons-characters-feel-about-each-other
+layout: post
 modified: 2014-01-07 22:03
+slug: how-do-simpsons-characters-feel-about-each-other
 status: published
-categories:
-    - R
-    - python
-    - machine learning
-    - simpsons
-    - sentiment analysis
-    - NLP
-    - audio
+subclass: post
+tags: R Python nlp machine-learning
+title: Do the Simpsons characters like each other?
 ---
 
 One day, while I was walking around Cambridge, I had a random thought -- how do the characters on the Simpsons feel about each other? It doesn't take long to figure out how Homer feels about Flanders (hint: he doesn't always like him), or how Burns feels about everyone, but how does Marge feel about Bart? How does Flanders feel about Homer? I then realized that I work with algorithms -- maybe I would be able to devise one to answer this question. After all, I [did something similar](http://vikparuchuri.com/blog/tracking-us-sentiments-over-time-in/) with the Wikileaks cables.

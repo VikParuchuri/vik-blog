@@ -1,12 +1,13 @@
 ---
-layout: post
+categories: vik
 cover: false
-title: Create a New Ruby Process in Windows
 date: 2012-01-10 18:20
-slug: create-new-ruby-process-in-windows
+layout: post
 modified: 2014-01-07 18:47
+slug: create-new-ruby-process-in-windows
 status: published
-categories: Ruby windows parallel
+subclass: post
+tags: Ruby windows parallel
 ---
 
 I recently had a problem whereby I needed one Ruby program to spawn another

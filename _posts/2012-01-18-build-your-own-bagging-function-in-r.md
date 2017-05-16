@@ -1,11 +1,14 @@
 ---
-layout: post
-title: Improve Predictive Performance in R with Bagging
+categories: vik
+cover: false
 date: 2012-01-18 07:49
-slug: build-your-own-bagging-function-in-r
+layout: post
 modified: 2014-01-07 20:18
+slug: build-your-own-bagging-function-in-r
 status: published
-categories: R
+subclass: post
+tags: R
+title: Improve Predictive Performance in R with Bagging
 ---
 
 Bagging, aka bootstrap aggregation, is a relatively simple way to increase the

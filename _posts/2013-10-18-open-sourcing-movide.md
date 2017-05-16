@@ -1,11 +1,14 @@
 ---
-layout: post
-title: Open sourcing movide, a student-centric learning platform
+categories: vik
+cover: false
 date: 2013-10-18 17:24
-slug: open-sourcing-movide
+layout: post
 modified: 2014-01-09 15:24
+slug: open-sourcing-movide
 status: published
-categories: LMS Movide learning education edtech open source
+subclass: post
+tags: LMS Movide learning education edtech open source
+title: Open sourcing movide, a student-centric learning platform
 ---
 
 I haven't blogged in a while, mostly because I have been trying to figure out what I should do next. One thing that I have been working on lately that I am very passionate about is [Movide](http://www.movide.com). Movide is a student-centric learning platform. You might yawn at this point and wonder why Movide matters. It's a natural reaction, given the crowded learning tools marketplace. Movide, matters, I think, because it is an [open source](http://www.github.com/equirio/movide) attempt to change the LMS and learning tool paradigm.

@@ -1,11 +1,13 @@
 ---
-layout: post
-title: Using R in Ruby
+categories: vik
+cover: false
 date: 2012-01-10 18:08
-slug: using-r-in-ruby
+layout: post
 modified: 2014-01-07 20:44
+slug: using-r-in-ruby
 status: published
-categories: Ruby Windows R
+subclass: post
+tags: Ruby Windows R
 ---
 
 Integrating R into more traditional programming languages can be incredibly

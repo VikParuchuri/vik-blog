@@ -1,11 +1,14 @@
 ---
-layout: post
-title: How divided is the Senate?
+categories: vik
+cover: false
 date: 2013-07-30 00:05
-slug: how-divided-is-the-senate
+layout: post
 modified: 2014-01-09 15:38
+slug: how-divided-is-the-senate
 status: published
-categories: R politics senate democrats republicans congress python
+subclass: post
+tags: R politics senate democrats republicans congress python
+title: How divided is the Senate?
 ---
 
 I very seldom pay attention to politics directly, because politics have always seemed a bit circular and cyclical to me. Most of the political news that I take in ends up worming its way into the news sources that I do consume, like the excellent [longform.org](http://www.longform.org). Even given my limited intake of political news, one trend that I have noticed lately is the increasing number of references to the Senate as "polarized" or "divided." [Here](http://voteview.com/political_polarization.asp) is a link to an interesting series of charts on polarization. Is it possible to quantify this polarization? Can quantifying the polarization enable us to draw interesting conclusions?

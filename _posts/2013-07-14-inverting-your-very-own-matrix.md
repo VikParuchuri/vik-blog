@@ -1,15 +1,14 @@
 ---
-layout: post
-title: Inverting your very own matrix
+categories: vik
+cover: false
 date: 2013-07-14 11:19
-slug: inverting-your-very-own-matrix
+layout: post
 modified: 2014-01-07 21:48
+slug: inverting-your-very-own-matrix
 status: published
-categories:
-    - math
-    - ML
-    - machine learning
-    - python
+subclass: post
+tags: math ML python machine-learning
+title: Inverting your very own matrix
 ---
 
 Introduction

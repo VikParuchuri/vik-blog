@@ -1,11 +1,14 @@
 ---
-layout: post
-title: How Many Data Scientists Are There?
+categories: vik
+cover: false
 date: 2012-08-09 13:38
-slug: how-many-data-scientists-are-there
+layout: post
 modified: 2014-01-07 21:21
+slug: how-many-data-scientists-are-there
 status: published
-categories: ggplot2 data science data analysis Statistics regression chart Kaggle R
+subclass: post
+tags: ggplot2 data science data analysis Statistics regression chart Kaggle R
+title: How Many Data Scientists Are There?
 ---
 
 How Many Data Scientists Are There?  

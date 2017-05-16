@@ -1,11 +1,14 @@
 ---
-layout: post
-title: Loading and/or Installing Packages Programmatically
+categories: vik
+cover: false
 date: 2012-05-08 05:03
-slug: loading-andor-installing-packages
+layout: post
 modified: 2014-01-07 20:31
+slug: loading-andor-installing-packages
 status: published
-categories: packages deployment production install load R
+subclass: post
+tags: packages deployment production install load R
+title: Loading and/or Installing Packages Programmatically
 ---
 
 In R, the traditional way to load packages can sometimes lead to situations

@@ -1,17 +1,14 @@
 ---
-layout: post
-title: Using the power of sound to figure out which Simpsons character is speaking
+categories: vik
+cover: false
 date: 2013-07-18 23:55
-slug: analyzing-audio-to-figure-out-which-simpsons-character-is-speaking
+layout: post
 modified: 2014-01-07 22:02
+slug: analyzing-audio-to-figure-out-which-simpsons-character-is-speaking
 status: published
-categories:
-    - NLP
-    - simpsons
-    - R
-    - python
-    - ML
-    - machine learning
+subclass: post
+tags: R python NLP machine-learning
+title: Using the power of sound to figure out which Simpsons character is speaking
 ---
 
 *Update: you can find the next post in this series [here](/blog/how-do-simpsons-characters-feel-about-each-other/).*

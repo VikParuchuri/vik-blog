@@ -1,16 +1,14 @@
 ---
-layout: post
-title: Find the determinant of a matrix
+categories: vik
+cover: false
 date: 2013-07-15 19:11
-slug: find-the-determinant-of-a-matrix
+layout: post
 modified: 2014-01-07 21:49
+slug: find-the-determinant-of-a-matrix
 status: published
-categories:
-    - math
-    - ML
-    - machine learning
-    - python
-    - matrix
+subclass: post
+tags: math ML python machine-learning
+title: Find the determinant of a matrix
 ---
 
 The determinant of a matrix is a number associated with a square (nxn) matrix. The determinant can tell us if columns are linearly correlated, if a system has any nonzero solutions, and if a matrix is invertible. See [the wikipedia entry](http://en.wikipedia.org/wiki/Determinant) for more details on this.

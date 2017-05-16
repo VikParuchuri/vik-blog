@@ -1,18 +1,14 @@
 ---
-layout: post
-title: Figuring out which Simpsons character is speaking
+categories: vik
+cover: false
 date: 2013-07-17 11:36
-slug: figuring-out-which-simpsons-character-is-speaking
+layout: post
 modified: 2014-01-07 22:00
+slug: figuring-out-which-simpsons-character-is-speaking
 status: published
-categories:
-    - simpsons
-    - percept
-    - machine learning
-    - ML
-    - clustering
-    - python
-    - R
+subclass: post
+tags: R python machine-learning
+title: Figuring out which Simpsons character is speaking
 ---
 
 *Update: you can find the next post in this series [here](/blog/analyzing-audio-to-figure-out-which-simpsons-character-is-speaking/).*

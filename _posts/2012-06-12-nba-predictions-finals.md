@@ -1,11 +1,14 @@
 ---
-layout: post
-title: NBA Predictions -- Finals
+categories: vik
+cover: false
 date: 2012-06-12 12:05
-slug: nba-predictions-finals
+layout: post
 modified: 2014-01-07 21:53
+slug: nba-predictions-finals
 status: published
-categories: basketball NBA playoffs finals R
+subclass: post
+tags: basketball NBA playoffs finals R
+title: NBA Predictions -- Finals
 ---
 
 Now we are on to the finals! The algorithm enters the finals with a 6-4 record

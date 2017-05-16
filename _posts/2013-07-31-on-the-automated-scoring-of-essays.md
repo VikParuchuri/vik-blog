@@ -1,11 +1,14 @@
 ---
-layout: post
-title: On the automated scoring of essays and the lessons learned along the way
+categories: vik
+cover: false
 date: 2013-07-31 12:30
-slug: on-the-automated-scoring-of-essays
+layout: post
 modified: 2014-01-09 15:29
+slug: on-the-automated-scoring-of-essays
 status: published
-categories: AES ASAP kaggle edX essay scoring discern EASE python
+subclass: post
+tags: AES ASAP kaggle edX essay scoring discern EASE python
+title: On the automated scoring of essays and the lessons learned along the way
 ---
 
 We've all written essays, primarily while we were in school. The sometimes enjoyable process of researching the topic and composing the paper can take hours and hours of careful work. Given this, people react badly to the notion that their essays may be scored not by a human teacher, but [by machine](http://gettingsmart.com/2012/04/automated-essay-scoring-systems-demonstrate-effectiveness/).

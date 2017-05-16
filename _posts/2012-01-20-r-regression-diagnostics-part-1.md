@@ -1,11 +1,14 @@
 ---
-layout: post
-title: R Regression Diagnostics Part 1
+categories: vik
+cover: false
 date: 2012-01-20 12:02
-slug: r-regression-diagnostics-part-1
+layout: post
 modified: 2014-01-07 20:23
+slug: r-regression-diagnostics-part-1
 status: published
-categories: Regression diagnostics R
+subclass: post
+tags: Regression diagnostics R
+title: R Regression Diagnostics Part 1
 ---
 
 Linear regression can be a fast and powerful tool to model complex phenomena.

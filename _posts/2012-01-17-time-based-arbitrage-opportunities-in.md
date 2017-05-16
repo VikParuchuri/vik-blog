@@ -1,11 +1,14 @@
 ---
-layout: post
-title: Time Based Arbitrage Opportunities in Tick Data
+categories: vik
+cover: false
 date: 2012-01-17 16:59
-slug: time-based-arbitrage-opportunities-in
+layout: post
 modified: 2014-01-07 20:28
+slug: time-based-arbitrage-opportunities-in
 status: published
-categories: Finance R
+subclass: post
+tags: Finance R
+title: Time Based Arbitrage Opportunities in Tick Data
 ---
 
 I recently posted an [introduction](http://viksalgorithms.blogspot.com/2012/01

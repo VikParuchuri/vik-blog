@@ -1,11 +1,14 @@
 ---
-layout: post
-title: My Talk at Boston Python
+categories: vik
+cover: false
 date: 2013-06-25 23:45
-slug: my-talk-at-boston-python
+layout: post
 modified: 2014-01-07 15:37
+slug: my-talk-at-boston-python
 status: published
-categories: nlp python R edx ease discern
+subclass: post
+tags: nlp python R edx ease discern
+title: My Talk at Boston Python
 ---
 
 I just gave a talk at [Boston Python](http://www.meetup.com/bostonpython/events/107649802/) about natural language processing in general, and [edX ease](https://github.com/edx/ease) and [discern](https://github.com/edx/discern) in specific.

@@ -1,13 +1,14 @@
 ---
-layout: post
-title: Intro to Ensemble Learning in R
+categories: vik
+cover: false
 date: 2012-01-19 09:31
-slug: intro-to-ensemble-learning-in-r
+layout: post
 modified: 2014-01-07 20:18
+slug: intro-to-ensemble-learning-in-r
 status: published
-categories:
-    - Machine learning
-    - R
+subclass: post
+tags: machine-learning R
+title: Intro to Ensemble Learning in R
 ---
 
 **Introduction**  

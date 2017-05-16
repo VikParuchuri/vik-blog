@@ -1,11 +1,14 @@
 ---
-layout: post
-title: Evolve your own beats -- automatically generating music via algorithms
+categories: vik
+cover: false
 date: 2013-07-26 08:28
-slug: evolve-your-own-beats-automatically-generating-music
+layout: post
 modified: 2014-01-09 15:10
+slug: evolve-your-own-beats-automatically-generating-music
 status: published
-categories: music audio sound R python remix
+subclass: post
+tags: music audio sound R python remix
+title: Evolve your own beats -- automatically generating music via algorithms
 ---
 
 *Update: you can find the next post in this series [here](/blog/making-instrumental-music-from-scratch/).*

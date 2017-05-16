@@ -1,9 +1,12 @@
 ---
-layout: post
-title: Making an app as a Valentine's day gift
+categories: vik
+cover: false
 date: 2015-02-18 16:45
+layout: post
 status: published
-categories: android app tulalens
+subclass: post
+tags: android app tulalens
+title: Making an app as a Valentine's day gift
 ---
 
 For the past year, my girlfriend, [Priya](https://twitter.com/priyabiyer) has been working on an awesome nonprofit called [Tulalens](http://www.tulalens.org).  The idea is to be "yelp for low-income people in emerging markets".  She did a pilot in October/November 2014 where she and the Tulalens team went into the slums of [Hyderabad](http://en.wikipedia.org/wiki/Hyderabad), and surveyed pregnant women on which hospitals they went to and the quality of care they received.  She was then able to analyze the data and figure out the best hospitals in the area.  

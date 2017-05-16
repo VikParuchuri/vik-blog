@@ -1,11 +1,14 @@
 ---
-layout: post
-title: The power, and danger, of visualizations
+categories: vik
+cover: false
 date: 2013-08-07 12:01
-slug: the-danger-and-power-of-visualizations
+layout: post
 modified: 2014-01-09 15:27
+slug: the-danger-and-power-of-visualizations
 status: published
-categories: R senate visualization mistakes svd
+subclass: post
+tags: R senate visualization mistakes svd
+title: The power, and danger, of visualizations
 ---
 
 I recently posted about [visualizing the voting patterns](/blog/how-divided-is-the-senate/) of senators. In the post, I scraped voting data for each senator on every vote in the 113th Congress from the Senate website, and then assigned a code of 0 for a no vote on a particular issue, 1 for a yes vote, 2 for abstention, and 3 if the senator was not in office at the time of the vote (ie, a senator was switched mid-term).

@@ -1,11 +1,14 @@
 ---
-layout: post
-title: Monitoring Progress Inside a Foreach Loop
+categories: vik
+cover: false
 date: 2012-02-09 09:12
-slug: monitoring-progress-inside-foreach-loop
+layout: post
 modified: 2014-01-07 20:31
+slug: monitoring-progress-inside-foreach-loop
 status: published
-categories: foreach randomForest doSnow R
+subclass: post
+tags: foreach randomForest doSnow R
+title: Monitoring Progress Inside a Foreach Loop
 ---
 
 The foreach package for R is excellent, and allows for code to easily be run

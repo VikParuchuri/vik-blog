@@ -1,18 +1,14 @@
 ---
-layout: post
-title: Predicting NBA Playoff Games - Results and Update 1
+categories: vik
+cover: false
 date: 2012-06-01 10:12
-slug: predicting-nba-playoff-games-results
+layout: post
 modified: 2014-01-07 20:43
+slug: predicting-nba-playoff-games-results
 status: published
-categories:
-    - Machine learning
-    - basketball
-    - predictive analytics
-    - predictions
-    - NBA
-    - ggplot
-    - R
+subclass: post
+tags: machine-learning basketball predictive-analytics predictions NBA ggplot R
+title: Predicting NBA Playoff Games - Results and Update 1
 ---
 
 **Game Results**  

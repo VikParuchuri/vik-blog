@@ -1,11 +1,14 @@
 ---
-layout: post
-title: Analyzing Federal Bailout Recipients in R
+categories: vik
+cover: false
 date: 2012-01-19 12:30
-slug: analyzing-federal-bailout-recipients-in
+layout: post
 modified: 2014-01-07 20:27
+slug: analyzing-federal-bailout-recipients-in
 status: published
-categories: Finance bailout banking R
+subclass: post
+tags: Finance bailout banking R
+title: Analyzing Federal Bailout Recipients in R
 ---
 
 I was searching for open data recently, and stumbled on [Socrata](http://opendata.socrata.com/). Socrata has a lot of interesting data sets, and while I was browsing around, I found a data set on federal bailout recipients. [Here](http://opendata.socrata.com/Government/Bailout-Recipients/gbdy-vjgr) is the data set. However, data sets on Socrata are not always the most recent versions, so I followed a link to the data source at [Propublica](http://projects.propublica.org/bailout/list/index), where I was able to find a data set that was last updated on January 17, 2012. I downloaded the data in csv format. In the rest of this post, I will perform basic analysis on this data, and show that R can be used to do the same analysis as Excel in a much simpler and more powerful way.

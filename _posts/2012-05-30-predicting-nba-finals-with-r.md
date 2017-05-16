@@ -1,11 +1,14 @@
 ---
-layout: post
-title: Predicting the NBA Finals with R
+categories: vik
+cover: false
 date: 2012-05-30 12:07
-slug: predicting-nba-finals-with-r
+layout: post
 modified: 2014-01-07 20:40
+slug: predicting-nba-finals-with-r
 status: published
-categories: predict basketball predictions NBA data analysis finals ggplot statistics regression R
+subclass: post
+tags: predict basketball predictions NBA data analysis finals ggplot statistics regression R
+title: Predicting the NBA Finals with R
 ---
 
 This is the initial post about the algorithm. See updates

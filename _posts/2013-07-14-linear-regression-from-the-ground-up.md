@@ -1,17 +1,14 @@
 ---
-layout: post
-title: Linear Regression from the Ground Up
+categories: vik
+cover: false
 date: 2013-07-14 19:19
-slug: linear-regression-from-the-ground-up
+layout: post
 modified: 2014-01-07 21:35
+slug: linear-regression-from-the-ground-up
 status: published
-categories:
-    - math
-    - linear regression
-    - matrices
-    - ML
-    - machine learning
-    - Python
+subclass: post
+tags: math linear-regression python ML machine-learning
+title: Linear Regression from the Ground Up
 ---
 
 Linear regression is a very basic technique that we use a lot in machine learning. In a lot of cases (and I have been guilty of this), we just use it without much thought as to how the internals actually work.

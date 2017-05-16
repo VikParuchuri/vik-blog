@@ -1,11 +1,14 @@
 ---
-layout: post
-title: What makes us happy?  Lets look at data to find out.
+categories: vik
+cover: false
 date: 2013-11-13 17:49
-slug: what-makes-people-happy
+layout: post
 modified: 2014-01-09 15:23
+slug: what-makes-people-happy
 status: published
-categories: happiness happsee Somerville R leaflet Kaggle causation
+subclass: post
+tags: happiness happsee Somerville R leaflet Kaggle causation
+title: What makes us happy?  Lets look at data to find out.
 ---
 
 I've had a lot of different jobs over the past 4 years, and I've had some incredible experiences along the way. Lately, I've been struggling with what to do next. Or perhaps more accurately, I've been struggling with how to decide what to do next. Decisions that seem obvious in hindsight are tough to come to grips with beforehand, and it's led me to think about what metric I am trying to maximize. I admit that it's odd to think of life as a way to increase certain metrics, but aren't we doing this already in a different way? A lot of people (myself included) will at some point say that all we care about is money. Isn't that just us saying that money is the metric we want to maximize? Now that I am older and wiser (yeah, right), I find myself increasingly concerned with maximizing my own happiness.

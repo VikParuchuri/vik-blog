@@ -1,11 +1,14 @@
 ---
-layout: post
-title: Making infographics using R and Inkscape
+categories: vik
+cover: false
 date: 2013-07-24 09:39
-slug: making-infographics-using-r-and-inkscape
+layout: post
 modified: 2014-01-09 05:02
+slug: making-infographics-using-r-and-inkscape
 status: published
-categories: R infographics inkscape plotting ggplot2 visualization
+subclass: post
+tags: R infographics inkscape plotting ggplot2 visualization
+title: Making infographics using R and Inkscape
 ---
 
 I have been making charts with R for almost as long as I have been using R, and with good reason: R is an amazing tool for filtering and visualizing data. With R, and particularly if we use the excellent [ggplot2](http://ggplot2.org/) library, we can go from raw data to compelling visualization in minutes.

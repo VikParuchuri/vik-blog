@@ -1,13 +1,14 @@
 ---
-layout: post
-title: Resources for Learning Statistics and Data Mining
+categories: vik
+cover: false
 date: 2012-01-16 15:52
-slug: resources-for-learning-statistics-and
+layout: post
 modified: 2014-01-07 18:47
+slug: resources-for-learning-statistics-and
 status: published
-categories:
-    - Machine learning
-    - statistics
+subclass: post
+tags: machine-learning statistics
+title: Resources for Learning Statistics and Data Mining
 ---
 
 There are an abundance of resources on the web to help novices teach

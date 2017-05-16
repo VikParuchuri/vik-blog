@@ -1,19 +1,14 @@
 ---
-layout: post
-title: Programming instrumental music from scratch
+categories: vik
+cover: false
 date: 2013-07-29 15:34
-slug: making-instrumental-music-from-scratch
+layout: post
 modified: 2014-01-09 15:42
+slug: making-instrumental-music-from-scratch
 status: published
-categories:
-    - R
-    - python
-    - music
-    - markov chains
-    - genetic algorithms
-    - machine learning
-    - ML
-    - instruments
+subclass: post
+tags: R python machine-learning
+title: Programming instrumental music from scratch
 ---
 
 I recently posted about [automatically making music](http://www.vikparuchuri.com/blog/evolve-your-own-beats-automatically-generating-music). The algorithm that I made pulled out interesting sequences of music from existing songs and remixed them. While this worked reasonably well, it also didn't have full control over the basics of the music; it wasn't actually specifying which instruments to use, or what notes to play.

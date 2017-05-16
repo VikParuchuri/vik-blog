@@ -1,11 +1,13 @@
 ---
-layout: post
-title: Time Series Cointegration in R
+categories: vik
+cover: false
 date: 2012-01-10 19:00
-slug: time-series-cointegration-in-r
+layout: post
 modified: 2014-01-07 20:18
+slug: time-series-cointegration-in-r
 status: published
-categories: Finance R
+subclass: post
+tags: Finance R
 ---
 
 Cointegration can be a valuable tool in determining the mean reverting

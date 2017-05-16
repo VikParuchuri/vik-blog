@@ -1,11 +1,14 @@
 ---
-layout: post
-title: Creating a Wordpress Single or Multisite Install Using Cloudformation and Ansible
+categories: vik
+cover: false
 date: 2013-06-18 18:00
-slug: creating-a-wordpress-single-or-multisite-install-using-cloudformation-and-ansible
+layout: post
 modified: 2014-01-07 21:24
+slug: creating-a-wordpress-single-or-multisite-install-using-cloudformation-and-ansible
 status: published
-categories: ansible deployment wordpress python
+subclass: post
+tags: ansible deployment wordpress python
+title: Creating a Wordpress Single or Multisite Install Using Cloudformation and Ansible
 ---
 
 Intro

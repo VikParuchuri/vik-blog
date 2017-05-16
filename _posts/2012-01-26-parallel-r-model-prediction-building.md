@@ -1,11 +1,14 @@
 ---
-layout: post
-title: Parallel R Model Prediction Building and Analytics
+categories: vik
+cover: false
 date: 2012-01-26 19:13
-slug: parallel-r-model-prediction-building
+layout: post
 modified: 2014-01-07 20:28
+slug: parallel-r-model-prediction-building
 status: published
-categories: foreach loop parallel R
+subclass: post
+tags: foreach loop parallel R
+title: Parallel R Model Prediction Building and Analytics
 ---
 
 Modifying R code to run in parallel can lead to huge performance gains.

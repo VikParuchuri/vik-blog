@@ -1,18 +1,14 @@
 ---
-layout: post
-title: Mapping US Radiation Levels in R
+categories: vik
+cover: false
 date: 2012-05-08 08:20
-slug: mapping-us-radiation-levels-in-r
+layout: post
 modified: 2014-01-07 20:35
+slug: mapping-us-radiation-levels-in-r
 status: published
-categories:
-    - zips
-    - zip codes
-    - coordinates
-    - mapping
-    - radiation
-    - R
-    - plotting
+subclass: post
+tags: zips zip-codes coordinates mapping radiation R plotting
+title: Mapping US Radiation Levels in R
 ---
 
 I have posted previously about the open data available on Socrata

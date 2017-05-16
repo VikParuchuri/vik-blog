@@ -1,15 +1,14 @@
 ---
-layout: post
-title: NBA Playoff Predictions Update 4 (5-3)
+categories: vik
+cover: false
 date: 2012-06-07 12:24
-slug: nba-playoff-predictions-update-4-5-3
+layout: post
 modified: 2014-01-07 20:47
+slug: nba-playoff-predictions-update-4-5-3
 status: published
-categories:
-    - R
-    - NBA
-    - playoffs
-    - machine learning
+subclass: post
+tags: machine-learning basketball predictive-analytics predictions NBA ggplot R
+title: NBA Playoff Predictions Update 4 (5-3)
 ---
 
 This is update 4 to my original post about predicting the [NBA playoffs with

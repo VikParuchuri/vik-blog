@@ -1,21 +1,14 @@
 ---
-layout: post
-title: NBA Playoff Predictions Update 3 (4-2)
+categories: vik
+cover: false
 date: 2012-06-05 12:05
-slug: nba-playoff-predictions-update-3-4-2
+layout: post
 modified: 2014-01-07 20:45
+slug: nba-playoff-predictions-update-3-4-2
 status: published
-categories:
-    - R
-    - basketball
-    - playoffs
-    - NBA
-    - Miami
-    - Heat
-    - Thunder
-    - Oklahoma City
-    - Boston
-    - Celtics
+subclass: post
+tags: machine-learning basketball predictive-analytics predictions NBA ggplot R
+title: NBA Playoff Predictions Update 3 (4-2)
 ---
 
 This is my third update to my original post on [predicting the NBA playoffs

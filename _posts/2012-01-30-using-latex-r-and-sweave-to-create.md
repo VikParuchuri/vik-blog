@@ -1,11 +1,14 @@
 ---
-layout: post
-title: Using LaTeX, R, and Sweave to Create Reports in Windows
+categories: vik
+cover: false
 date: 2012-01-30 18:24
-slug: using-latex-r-and-sweave-to-create
+layout: post
 modified: 2014-01-07 20:31
+slug: using-latex-r-and-sweave-to-create
 status: published
-categories: Windows LaTeX Sweave R
+subclass: post
+tags: Windows LaTeX Sweave R
+title: Using LaTeX, R, and Sweave to Create Reports in Windows
 ---
 
 [LaTeX](http://www.latex-project.org/) is a typesetting system that can easily

@@ -1,11 +1,13 @@
 ---
-layout: post
-title: Playing MP3s in Ruby on Windows
+categories: vik
+cover: false
 date: 2012-01-10 18:38
-slug: playing-mp3s-in-ruby-on-windows
+layout: post
 modified: 2014-01-07 18:46
+slug: playing-mp3s-in-ruby-on-windows
 status: published
-categories: Ruby Windows
+subclass: post
+tags: Ruby Windows
 ---
 
 I recently needed to play music in Ruby in order to create an alarm clock of

@@ -1,25 +1,14 @@
 ---
-layout: post
-title: Tracking US Sentiments Over Time In Wikileaks
+categories: vik
+cover: false
 date: 2012-06-18 09:54
-slug: tracking-us-sentiments-over-time-in
+layout: post
 modified: 2014-01-07 21:06
+slug: tracking-us-sentiments-over-time-in
 status: published
-categories:
-    - text mining
-    - random indexing
-    - RI
-    - foreign service
-    - wikileaks
-    - R
-    - sentiment analysis
-    - diplomatic
-    - nlp
-    - sentiment
-    - natural language processing
-    - afinn
-    - diplomatic cables
-    - named entity recognition
+subclass: post
+tags: text-mining R nlp
+title: Tracking US Sentiments Over Time In Wikileaks
 ---
 
 **Introduction**

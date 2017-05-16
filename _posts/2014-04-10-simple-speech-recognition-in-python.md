@@ -1,11 +1,14 @@
 ---
-layout: post
-title: Simple speech recognition in Python
+categories: vik
+cover: false
 date: 2014-04-10 08:28
-slug: simple-speech-recognition-in-python
+layout: post
 modified: 2014-04-10 08:28
+slug: simple-speech-recognition-in-python
 status: published
-categories: python speech scribe
+subclass: post
+tags: python speech scribe
+title: Simple speech recognition in Python
 ---
 
 Sometime today, I got the idea to try to do automatic speech recognition.  Speech recognition, even though it is widely used (and is on our phones), still seems kind of sci-fi-ish to me.  The thought of running it on your own computer is still pretty exciting.

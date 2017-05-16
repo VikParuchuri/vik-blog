@@ -1,15 +1,14 @@
 ---
-layout: post
-title: Analyzing US Government Contract Awards in R
+categories: vik
+cover: false
 date: 2012-01-23 18:47
-slug: analyzing-us-government-contract-awards
+layout: post
 modified: 2014-01-07 20:26
+slug: analyzing-us-government-contract-awards
 status: published
-categories:
-    - data analysis
-    - government
-    - spending
-    - R
+subclass: post
+tags: data-analysis government spending R
+title: Analyzing US Government Contract Awards in R
 ---
 
 As I was exploring open data sources, I came across [USA
